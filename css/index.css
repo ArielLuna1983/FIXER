@@ -3,25 +3,49 @@
     padding: 0;
 }
 
-body {
-    background: url("../media/Fondo.png");
-    background-size: cover;
+/* body {
+    background: url("../media/Fondo\ 2.png");
+    background-position-x: right;
+    position: fixed;
     max-height: 100%;
-  }
+  } */
+div.fondo{
+    position: fixed;
+    right: 0%;
+    margin-right: 0;
+    height: 100%;
+}
+
+img.logo{
+    
+}
+
+.fondo img{
+    height: 100%;
+}
+
+.inicio{
+    display: block;
+    position: absolute;
+}
 
 .title {
+    display: block;
     font-size: 100px;
     padding-top: 20px;
     padding-left: 20px;
 }
 
 .subTitle {
+    display: block;
     font-size: 40px;
     padding-left: 20px;
     padding-top: 20px;
 }
 
 .under {
+    display: block;
+
     font-size: 30px;
     padding-top: 10px;
 }
@@ -41,7 +65,7 @@ div.contacto {
     max-height: 110px;
 }
 
-.mail  img{
+.mail img{
     display: block;
     max-height: 167px;
 }
