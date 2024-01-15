@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-/* body {
-    background: url("../media/Fondo\ 2.png");
-    background-position-x: right;
-    position: fixed;
-    max-height: 100%;
-  } */
 div.fondo{
     position: fixed;
     right: 0%;
@@ -17,7 +11,18 @@ div.fondo{
 }
 
 img.logo{
-    
+    position: fixed;
+    margin: auto;
+    right: 15%;
+    top: 50%;
+    bottom: 50%;
+    height: 30%;
+}
+
+img.logo:hover{
+    /* display: none; */
+    animation-duration: 500ms;
+    rotate: 45deg;
 }
 
 .fondo img{
