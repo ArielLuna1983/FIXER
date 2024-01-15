@@ -20,7 +20,6 @@ img.logo{
 }
 
 img.logo:hover{
-    /* display: none; */
     animation-duration: 500ms;
     rotate: 45deg;
 }
@@ -50,7 +49,6 @@ img.logo:hover{
 
 .under {
     display: block;
-
     font-size: 30px;
     padding-top: 10px;
 }
