@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../media/Fondo.png");
+    background-size: cover;
+    max-height: 100%;
+  }
+
+.title {
+    font-size: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.subTitle {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.under {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+div.contacto {
+    box-sizing: content-box;
+    bottom: 0;
+    max-height: 300px;
+    position: fixed;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.whatsapp img{
+    display: block;
+    max-height: 110px;
+}
+
+.mail  img{
+    display: block;
+    max-height: 167px;
+}
