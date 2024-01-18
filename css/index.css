@@ -68,6 +68,8 @@
     a.WA{
         display: flex;
         max-height: 200px;
+        text-decoration: none;
+        color: black;
     }
     .WA img{
         display: flex;
@@ -78,6 +80,8 @@
     a.EM{
         display: flex;
         max-height: 200px;
+        text-decoration: none;
+        color: black;
     }
     .EM img{
         display: flex;
@@ -91,12 +95,11 @@
         margin-top: auto;
         margin-bottom: auto;
         font-size: 40px;
-        text-decoration: none;
     }
 }
 @media only screen and (max-width: 1514px) {
     body{
-        background-color: lightgray;
+        background-color: #737373;
     }
     a {
         text-decoration: none;
@@ -113,10 +116,10 @@
         box-sizing: content-box;
         position: fixed;
         margin: auto;
-        left: 15px;
-        top: 15px;
+        left: 10px;
+        top: 10px;
         bottom: auto;
-        height: 10%;
+        height: 50px;
     }
     .logo span{
         display: block;
@@ -198,10 +201,31 @@
         text-decoration: none;
     }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     div.logo{
         height: 5%;
     }
+    a p{
+        display: none;
+    }
+    a.WA{
+        position: fixed;
+        right: 10%;
+        bottom: 2%;
+    }
+    .WA img{
+        max-height: 100px;
+    }
+    a.EM{
+        position: fixed;
+        left: 10%;
+        bottom: 4%;
+    }
+    .EM img{
+        max-height: 75px;
+    }
+}
+@media only screen and (max-height: 700px) {
     a p{
         display: none;
     }
