@@ -189,7 +189,6 @@
         display: flex;
         margin-top: auto;
         margin-bottom: auto;
-        padding-left: 25px;
         max-height: 150px;
     }
     a p{
@@ -211,15 +210,15 @@
     a.WA{
         position: fixed;
         right: 10%;
-        bottom: 2%;
+        top: 2%;
     }
     .WA img{
         max-height: 100px;
     }
     a.EM{
         position: fixed;
-        left: 10%;
-        bottom: 4%;
+        right: 30%;
+        top: 3%;
     }
     .EM img{
         max-height: 75px;
@@ -232,15 +231,15 @@
     a.WA{
         position: fixed;
         right: 10%;
-        bottom: 2%;
+        top: 2%;
     }
     .WA img{
         max-height: 100px;
     }
     a.EM{
         position: fixed;
-        left: 10%;
-        bottom: 4%;
+        left: 20%;
+        top: 4%;
     }
     .EM img{
         max-height: 75px;
