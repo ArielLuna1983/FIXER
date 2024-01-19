@@ -99,7 +99,7 @@
 }
 @media only screen and (max-width: 1514px) {
     body{
-        background-color: #737373;
+        background-color: lightblue;
     }
     a {
         text-decoration: none;
@@ -210,10 +210,10 @@
     a.WA{
         position: fixed;
         right: 7%;
-        top: 2%;
+        top: 3%;
     }
     .WA img{
-        max-height: 100px;
+        max-height: 75px;
     }
     a.EM{
         position: fixed;
@@ -231,17 +231,19 @@
     a.WA{
         position: fixed;
         right: 10%;
-        top: 2%;
+        top: 4%;
     }
     .WA img{
-        max-height: 100px;
+        max-height: 75px;
+        padding-left: 5px;
     }
     a.EM{
         position: fixed;
-        left: 20%;
+        right: 25%;
         top: 4%;
     }
     .EM img{
         max-height: 75px;
+        padding-left: 0%;
     }
 }
