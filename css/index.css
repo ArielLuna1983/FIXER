@@ -67,7 +67,7 @@
     }
     a.WA{
         display: flex;
-        max-height: 150px;
+        max-height: 100px;
         text-decoration: none;
         color: black;
         padding-bottom: 10px;
@@ -77,11 +77,11 @@
         margin-top: auto;
         margin-bottom: auto;
         padding-left: 25px;
-        max-height: 150px;
+        max-height: 100px;
     }
     a.EM{
         display: flex;
-        max-height: 150px;
+        max-height: 100px;
         text-decoration: none;
         color: black;
     }
@@ -90,7 +90,7 @@
         margin-top: auto;
         margin-bottom: auto;
         padding-left: 25px;
-        max-height: 150px;
+        max-height: 100px;
     }
     a p{
         display: flex;
@@ -176,7 +176,7 @@
     }
     a.WA{
         display: flex;
-        max-height: 150px;
+        max-height: 100px;
         padding-bottom: 10px;
     }
     .WA img{
@@ -187,7 +187,7 @@
     }
     a.EM{
         display: flex;
-        max-height: 150px;
+        max-height: 100px;
     }
     .EM img{
         display: flex;
